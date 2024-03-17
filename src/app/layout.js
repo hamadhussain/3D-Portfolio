@@ -1,6 +1,13 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Roboto_Mono} from 'next/font/google'
 
+const roboto = Roboto_Mono({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -11,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }

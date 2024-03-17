@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+// /** @type {import('tailwindcss').Config} */
+
+const nextConfig = {
+
+
+   
+  
+
+};
 
 export default nextConfig;
