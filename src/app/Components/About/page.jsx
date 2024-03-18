@@ -3,11 +3,11 @@ import Button from "./Button/page";
 import Image from "next/image";
 const page = () => {
   return (
-    <div name="test1" className="  mx-auto flex p-16 gap-10 bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500 about h-screen">
+    <div name="test1" className="  mx-auto flex p-24 gap-10 bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500 about h-screen">
       <div className="opacdiv p-2 px-4 gap-3 flex flex-col justify-evenly">
         {" "}
         <h1 className=" text-4xl text-white">About My Web</h1>
-        <p className=" text-2xl text-slate-400">
+        <p className=" text-sm text-slate-400">
           Unlock the best in web services with us! as market leaders, our agency
           excels in delivering tailored solutions that boost your online
           presence. With a proven track record. we're your go to choice for
@@ -16,7 +16,7 @@ const page = () => {
         </p>
         <Button />
       </div>
-      <Image src="/About/boy.png" className="opacdiv" height={400} width={400} alt="image" />
+      <Image src="/About/ab2.png" className="opacdiv" height={1600} width={600} alt="image" />
     </div>
   );
 };

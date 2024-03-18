@@ -22,10 +22,10 @@ const page = () => {
             return (
               <div
                 key={k}
-                className=" flex border bg-cyan-700 p-3 flex-col items-center rounded-xl w-max relative hover:bottom-3 hover:animate-bounce cursor-pointer"
+                className=" flex   p-3 flex-col items-center rounded-sm w-max relative hover:bottom-3 hover:animate-bounce cursor-pointer"
               >
-                <p className=" uppercase font-extralight font-sans">{i.dis}</p>
-
+                <h1 className=" capitalize text-white">{i.dis}</h1>
+<br />
                 <Image
                   src={`/Projects/${i.img}`}
                   alt="Image"

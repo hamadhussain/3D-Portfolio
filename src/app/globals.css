@@ -75,12 +75,46 @@
   }
 }
 
+.font-regular {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-bold {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-regular-italic {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-bold-italic {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.astloch-regular {
+  font-family: "Astloch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.astloch-bold {
+  font-family: "Astloch", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
 
 .about{
   height: 456px;
-
+  padding: 19px 158px;
   opacity: 0.7;
-  background-image: linear-gradient( rgb(4, 2, 2), rgb(48 15 36 / 66%),rgb(14, 7, 7));
+  background-image: linear-gradient( rgb(4, 2, 2), rgb(37 6 26 / 66%),rgb(14, 7, 7));
   color: aliceblue;
 }
 
@@ -174,8 +208,10 @@ body{
   
 }
 .text{
-  text-shadow: 0px 0px 20px #4c00ff;
-  font-size: 25px;}
+  text-shadow: 0px 0px 20px #877f99;
+  font-size: 25px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .btnn:hover::before {
   opacity: 1;
   transform: scaleX(1) scaleY(1);
@@ -190,4 +226,7 @@ body{
       opacity: 0;
       transform: translate(0);
   }
+}
+h1{
+  text-transform: uppercase;
 }
