@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from './Form/Page'
+import Form from './Form/page'
 import { IoMdContacts } from "react-icons/io";
 
 const Page = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button/Page";
+import Button from "./Button/page";
 import Image from "next/image";
 const Page = () => {
   return (
