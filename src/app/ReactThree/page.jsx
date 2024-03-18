@@ -6,11 +6,11 @@ import { useRef } from "react";
 // import { MeshStandardMaterial } from "three";
 // import { BoxGeometry } from "three";
 import { OrbitControls, Stars } from "@react-three/drei";
-import About from '../Components/About/page'
-import Nav from "../Components/Start/page";
-import Contact from '../Components/Contact/page'
-import Projects from '../Components/Projects/page'
-import Footer from '../Components/Footer/page'
+import About from '../Components/About/Page'
+import Nav from "../Components/Start/Page";
+import Contact from '../Components/Contact/Page'
+import Projects from '../Components/Projects/Page'
+import Footer from '../Components/Footer/Page'
 
 
 export default function Home() {

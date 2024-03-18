@@ -1,6 +1,6 @@
 import React from "react";
-// import  Cube from '../../../ReactThree/page'
-const page = () => {
+// import  Cube from '../../../ReactThree/Page'
+const Page = () => {
   return (
     <div className="  text-center relative -top-2 h-screen flex flex-col justify-evenly">
       <h1 className=" text-5xl text-center flex flex-col">
@@ -15,4 +15,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

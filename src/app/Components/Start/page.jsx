@@ -1,7 +1,7 @@
 import React from 'react'
-import Nav from "./Nav/page";
-import Home from './Home/page'
-const page = () => {
+import Nav from "./Nav/Page";
+import Home from './Home/Page'
+const Page = () => {
   return (
     <div>
       <Nav/>
@@ -10,4 +10,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

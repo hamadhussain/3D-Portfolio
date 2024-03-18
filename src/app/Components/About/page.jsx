@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "./Button/page";
+import Button from "./Button/Page";
 import Image from "next/image";
-const page = () => {
+const Page = () => {
   return (
     <div name="test1" className="  mx-auto flex p-24 gap-10 bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500 about h-screen">
       <div className="opacdiv p-2 px-4 gap-3 flex flex-col justify-evenly">
@@ -21,4 +21,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Front from "./Components/Start/page";
-import Three from "./ReactThree/page";
+import Front from "./Components/Start/Page";
+import Three from "./ReactThree/Page";
 export default function Home() {
   return (
     <>

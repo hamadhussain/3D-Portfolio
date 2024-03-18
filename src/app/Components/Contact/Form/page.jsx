@@ -17,7 +17,7 @@ import {
   TabsTrigger,
 } from "@/components/ui/tabs"
  
-const page = () => {
+const Page = () => {
   return (
     <div  className=''>
   <Tabs defaultValue="account" className="w-[400px] bg-black">
@@ -77,4 +77,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

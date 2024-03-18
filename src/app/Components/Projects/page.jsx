@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
-const page = () => {
+const Page = () => {
   const img = [
     { img: "P1.png", dis: "Architect Analyst" },
     { img: "P4.jpg", dis: "Shape Chamber" },
@@ -42,4 +42,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

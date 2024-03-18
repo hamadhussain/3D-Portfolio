@@ -1,22 +1,35 @@
 "use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 import { LiaAtomSolid } from "react-icons/lia";
 import { Link } from "react-scroll";
 
-const page = () => {
+const Page = () => {
   const navlist = [
     { name: "About", link: "test1" },
     { name: "Projects", link: "test2" },
     { name: "Contact", link: "test3" },
   ];
+  const icon = {
+    hidden: {
+      pathLength: 0,
+      fill: "rgba(255, 255, 255, 0)"
+    },
+    visible: {
+      pathLength: 1,
+      fill: "rgba(255, 255, 255, 1)"
+    }
+  }
   return (
     <>
       <div className=" flex justify-between items-center  px-20">
-        <div className=" flex items-center gap-3">
+        <motion.div      initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.5 }}  className=" flex items-center gap-3">
           <LiaAtomSolid className=" text-xl" />
           <h1 className=" uppercase text-2xl">Mailware</h1>
-        </div>
+        </motion.div>
         <nav className=" flex gap-14 ">
           {navlist.map((i, k) => {
             return (
@@ -44,4 +57,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
